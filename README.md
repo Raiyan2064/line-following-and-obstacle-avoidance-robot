@@ -63,7 +63,7 @@ In the sketch, HIGH means a sensor is over the black line and LOW means it is ov
 
 ## Build and run
 
-1. Open `line-following-robot.ino` in the Arduino IDE and select the **Arduino Uno** board.
+1. Open `line-following-and-obstacle-avoidance-robot.ino` in the Arduino IDE and select the **Arduino Uno** board.
 2. No external libraries are required.
 3. Wire the parts according to the pin map above and upload the sketch.
 4. Place the robot on a black tape line on a light floor and power it from the battery pack.
@@ -85,8 +85,8 @@ The robot was tested on a black tape track on a white floor, with straight secti
 ## Repository contents
 
 ```
-line-following-robot/
-  line-following-robot.ino   Arduino sketch
+line-following-and-obstacle-avoidance-robot/
+  line-following-and-obstacle-avoidance-robot.ino   Arduino sketch
   docs/                      Experiment report (PDF)
   images/                    Photos of the robot
   README.md
